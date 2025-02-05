@@ -1,0 +1,21 @@
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+authors = [ "Romeo Disca <romeo.disca@gmail.com>" ]
+
+readme = "README.md"
+license = "MIT"
+
+[workspace]
+resolver = "3"
+members = [
+    # main crate
+    "lemonade",
+
+    # sub-crates
+    "core",
+]
+
+[workspace.dependencies]
+lemonade-core = { path = "core" }

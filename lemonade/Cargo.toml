@@ -1,0 +1,13 @@
+[package]
+name = "lemonade"
+version = "0.1.0"
+edition = "2021"
+
+authors = [ "Romeo Disca <romeo.disca@gmail.com>" ]
+
+description = "functional programming"
+readme = "README.md"
+license-file = "LICENSE.md"
+
+[dependencies]
+lemonade-core = { workspace = true}

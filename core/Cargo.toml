@@ -1,0 +1,11 @@
+[package]
+name = "lemonade-core"
+version = "0.1.0"
+edition = "2021"
+
+authors = [ "Romeo Disca <romeo.disca@gmail.com>" ]
+
+readme = "README.md"
+license-file = "LICENSE.md"
+
+[dependencies]
